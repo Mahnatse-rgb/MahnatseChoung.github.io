@@ -1,0 +1,167 @@
+
+
+/* Adding burlywood background color on to top navbar*/
+
+
+.topnav {
+    background: burlywood;
+    overflow:  hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    Float : left;
+    color : #f2f2f2;
+    text-align: center;
+    padding: 1% 05%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover{
+    background-color: #ddd;
+    color : black;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #800080;
+    color: white;
+}
+/* Customizing the header section */
+.header{
+    text-align: center;
+    font-size: 300%;
+}
+
+/*Customizing the Portfolio section*/
+.Portfolio{
+    text-align: center;
+    font-size: 120%;
+}
+/*Customizing the Contact section*/
+.Contact{
+    text-align: left;
+
+}
+
+
+/* Introducing gap just above skills/ability section */
+/*.Skill{
+     style = "margin-top: 5%; padding: 0% 2% 3%;"
+}*/
+
+/* Introducing a css grid for the skills/ability section */
+body, html{
+    height: 100%;
+}
+
+
+
+.Abilities{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+
+}
+
+.content{
+    background-color: papayawhip;
+}
+
+.Abilities{
+    grid-area: ability;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+
+/* Making the site responsive */
+
+@media screen and (max-width: 550px){
+/* Adding burlywood background color on to top navbar*/
+
+
+.topnav {
+    background: burlywood;
+    overflow:  hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    Float : left;
+    color : #f2f2f2;
+    text-align: center;
+    padding: 1% 05%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover{
+    background-color: #ddd;
+    color : black;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #800080;
+    color: white;
+}
+/* Customizing the header section */
+.header{
+    text-align: center;
+    font-size: 300%;
+}
+
+/*Customizing the Portfolio section*/
+.Portfolio{
+    text-align: center;
+    font-size: 120%;
+}
+/*Customizing the Contact section*/
+.Contact{
+    text-align: left;
+    
+}
+
+
+/* Introducing gap just above skills/ability section */
+/*.Skill{
+     style = "margin-top: 5%; padding: 0% 2% 3%;"
+}*/
+
+/* Introducing a css grid for the skills/ability section */
+body, html{
+    height: 100%;
+}
+
+
+
+.Abilities{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+
+}
+
+.content{
+    background-color: papayawhip;
+}
+
+.Abilities{
+    grid-area: ability;
+    background-color: lightgray;
+    text-align: center;
+}
+}
